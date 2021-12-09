@@ -1,0 +1,7 @@
+lines 12+16:
+lower_bound is declared with an initial value of 0, which then necessitates +1 in the comp_rng
+it also breaks on user_guess = 0, as it is within the bounds range, but not the rng values
+
+lines 23,24: 
+guess_is_int and guess_is_int are declared with initial values of False and never used 
+
